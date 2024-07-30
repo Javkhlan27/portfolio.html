@@ -1,0 +1,179 @@
+body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  font-family: "Poppins";
+  color: #3d3d3d;
+}
+
+button {
+  border: none;
+}
+@media (max-width: 620px) {
+  body {
+    gap: 30px;
+  }
+
+  #logo-circle {
+    width: 48px;
+    height: 48px;
+  }
+
+  #logo-circle svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profile img {
+    width: 124px;
+    height: 124px;
+  }
+
+  #profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile-text h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #profile-text p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+#theme {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+#box1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile-photo {
+  width: 192px;
+  height: 192px;
+}
+
+#name {
+  font-size: 46px;
+  font-weight: 500;
+  margin: 0;
+}
+
+#major {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
+  color: #575757;
+  margin-left: 5px;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#social {
+  display: flex;
+  gap: 26px;
+}
+
+#box2 {
+  gap: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+#box3 {
+  display: flex;
+  gap: 20px;
+}
+
+#CV {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fbd144;
+  width: 290px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+#contact {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  background-color: white;
+  width: 290px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+#box4 {
+  width: 760px;
+  background-color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#portfolio {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  height: 80px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#skills {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #19191b;
+  background-color: white;
+}
+#box5 {
+  width: 790px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#end {
+  width: 463px;
+  height: 33px;
+  top: 1886px;
+  left: 684px;
+}

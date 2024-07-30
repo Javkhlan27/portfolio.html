@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  font-family: "Poppins";
+  color: #a3abb2;
+  background-color: #0c151d;
+}
+
+button {
+  border: none;
+}
+
+#theme {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+#box1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#profile-photo {
+  width: 192px;
+  height: 192px;
+}
+
+#name {
+  font-size: 46px;
+  font-weight: 500;
+  margin: 0;
+}
+
+#major {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
+  margin-left: 5px;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#social {
+  display: flex;
+  gap: 26px;
+}
+
+#box2 {
+  gap: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+#box3 {
+  display: flex;
+  gap: 20px;
+}
+
+#CV {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fbd144;
+  width: 290px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+#contact {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+
+  width: 290px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #171f26;
+  color: #a3abb2;
+}
+
+#box4 {
+  width: 760px;
+  background-color: #171f26;
+  padding: 12px 24px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#portfolio {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  height: 80px;
+  text-align: center;
+  border-radius: 10px;
+  color: #a3abb2;
+  background-color: #0c151d;
+}
+
+#skills {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #a3abb2;
+  background-color: #171f26;
+}
+#box5 {
+  width: 790px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#end {
+  width: 463px;
+  height: 33px;
+  top: 1886px;
+  left: 684px;
+}
