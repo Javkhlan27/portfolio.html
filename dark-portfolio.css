@@ -95,17 +95,17 @@ button {
 }
 
 #box4 {
-  width: 760px;
   background-color: #171f26;
   padding: 12px 24px;
   border-radius: 12px;
   display: flex;
-  gap: 10px;
   align-items: center;
+  justify-content: center;
+  width: 660px;
 }
 
 #portfolio {
-  width: 100%;
+  width: 50%;
   font-size: 22px;
   font-weight: 500;
   height: 80px;
@@ -116,7 +116,7 @@ button {
 }
 
 #skills {
-  width: 100%;
+  width: 50%;
   font-size: 22px;
   font-weight: 500;
   text-align: center;
@@ -128,7 +128,7 @@ button {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px, 20px, 20px;
+  justify-content: center;
 }
 
 #end {
@@ -220,7 +220,7 @@ button {
   }
 
   #box4 {
-    width: 330px;
+    width: 280px;
     background-color: #171f26;
     padding: 5px, 2px, 5px, 2px;
     border-radius: 10px;
