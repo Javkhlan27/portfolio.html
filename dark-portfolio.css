@@ -134,3 +134,47 @@ button {
   top: 1886px;
   left: 684px;
 }
+
+@media (max-width: 620px) {
+  body {
+    gap: 30px;
+  }
+
+  #theme {
+    width: 48px;
+    height: 48px;
+  }
+
+  #theme svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profile-photo {
+    width: 124px;
+    height: 124px;
+  }
+
+  #information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #information h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #information p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
