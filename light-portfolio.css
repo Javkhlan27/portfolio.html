@@ -7,6 +7,7 @@ body {
   gap: 60px;
   font-family: "Poppins";
   color: #3d3d3d;
+  padding: 20px, 0px, 40px, 0px;
 }
 
 button {
@@ -40,6 +41,7 @@ button {
   font-weight: 500;
   margin: 0;
 }
+
 #major {
   font-size: 22px;
   font-weight: 500;
@@ -64,7 +66,6 @@ button {
 }
 
 #box3 {
-  display: flex;
   gap: 20px;
 }
 
@@ -124,12 +125,13 @@ button {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px, 20px, 20px;
 }
 #end {
-  width: 463px;
-  height: 33px;
-  top: 1886px;
-  left: 684px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: center;
 }
 
 @media (max-width: 620px) {
@@ -218,12 +220,12 @@ button {
   }
 
   #box4 {
-    width: 375px;
+    width: 330px;
     background-color: white;
-    padding: 10px 20px;
-    border-radius: 12px;
+    padding: 5px, 2px, 5px, 2px;
+    border-radius: 10px;
     display: flex;
-    gap: 10px;
+    gap: 9px;
     align-items: center;
   }
 
@@ -245,15 +247,17 @@ button {
     background-color: white;
   }
   #box5 {
-    width: 375px;
-    gap: 20px;
+    width: 330px;
+    gap: 30px;
+    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   #end {
-    width: 295px;
-    height: 21px;
-    top: 1886px;
-    left: 684px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
   }
 }
