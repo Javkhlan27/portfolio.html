@@ -65,6 +65,7 @@ button {
 }
 
 #box3 {
+  display: flex;
   gap: 20px;
 }
 
@@ -83,7 +84,8 @@ button {
 #contact {
   font-size: 22px;
   font-weight: 500;
-  background-color: white;
+  color: #a3abb2;
+  background-color: #171f26;
   display: flex;
   min-width: 200px;
   align-items: center;
