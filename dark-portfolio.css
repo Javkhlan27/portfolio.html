@@ -31,24 +31,22 @@ button {
   height: 192px;
 }
 
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 #name {
   font-size: 46px;
   font-weight: 500;
   margin: 0;
 }
-
 #major {
   font-size: 22px;
   font-weight: 500;
   margin: 0;
   text-align: left;
   margin-left: 5px;
-}
-
-#information {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 #social {
@@ -176,5 +174,78 @@ button {
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
+  }
+  #box2 {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #box3 {
+    display: flex;
+    gap: 14px;
+  }
+
+  #CV {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #fbd144;
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+  }
+
+  #contact {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+  }
+
+  #box4 {
+    width: 375px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #portfolio {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    height: 80px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #skills {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #19191b;
+    background-color: white;
+  }
+  #box5 {
+    width: 375px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #end {
+    width: 295px;
+    height: 21px;
+    top: 1886px;
+    left: 684px;
   }
 }

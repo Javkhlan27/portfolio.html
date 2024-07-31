@@ -24,23 +24,22 @@ button {
   align-items: center;
   gap: 40px;
 }
-#profile-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #profile-photo {
   width: 192px;
   height: 192px;
 }
 
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 #name {
   font-size: 46px;
   font-weight: 500;
   margin: 0;
 }
-
 #major {
   font-size: 22px;
   font-weight: 500;
@@ -48,12 +47,6 @@ button {
   text-align: left;
   color: #575757;
   margin-left: 5px;
-}
-
-#information {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 #social {
@@ -78,19 +71,23 @@ button {
 #CV {
   font-size: 22px;
   font-weight: 500;
-  text-align: center;
   background-color: #fbd144;
-  width: 290px;
-  height: 80px;
   border-radius: 10px;
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
 }
 
 #contact {
   font-size: 22px;
   font-weight: 500;
-  text-align: center;
   background-color: white;
-  width: 290px;
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+  justify-content: center;
   height: 80px;
   border-radius: 10px;
 }
@@ -176,5 +173,87 @@ button {
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
+  }
+  #box2 {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #box3 {
+    display: flex;
+    gap: 14px;
+  }
+
+  #CV {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #fbd144;
+    border-radius: 10px;
+    display: flex;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+  }
+
+  #contact {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: white;
+    display: flex;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    border-radius: 10px;
+  }
+
+  #CV svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  #box4 {
+    width: 375px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #portfolio {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    height: 80px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #skills {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #19191b;
+    background-color: white;
+  }
+  #box5 {
+    width: 375px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #end {
+    width: 295px;
+    height: 21px;
+    top: 1886px;
+    left: 684px;
   }
 }
