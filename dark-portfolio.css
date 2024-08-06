@@ -82,6 +82,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 80px;
+  cursor: pointer;
 }
 
 #contact {
