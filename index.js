@@ -15,3 +15,5 @@ function main() {
 }
 
 themeButton.addEventListener("click", main);
+
+// document.getElementById("CV", function () {});
