@@ -83,6 +83,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 80px;
+  cursor: pointer;
 }
 
 #contact {
@@ -95,6 +96,7 @@ button {
   justify-content: center;
   height: 80px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 #box4 {
