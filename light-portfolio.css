@@ -128,6 +128,18 @@ button {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+#box5 a {
+  width: 48%;
+}
+.project-card {
+  border-radius: 12px;
+}
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 #end {
   font-size: 22px;
   font-weight: 500;
