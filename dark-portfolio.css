@@ -26,6 +26,9 @@ button {
   align-items: center;
   gap: 40px;
 }
+#box1 img {
+  border-radius: 50%;
+}
 
 #profile-photo {
   width: 192px;
@@ -129,6 +132,20 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+#box5 a {
+  width: 48%;
+}
+
+.project-card {
+  border-radius: 12px;
+}
+
+.project-card img {
+  height: 226px;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 #end {
